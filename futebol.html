@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostar em Futebol - Blaze Apostas</title>
+    <link rel="stylesheet" href="style/futebol.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <header class="blaze-header">
+        <div class="container">
+            <h1 class="logo">            <img class="blaze" src="images/Blaze_apostas_logo.png" alt="">Apostas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Apostas</a></li>
+                    <li><a href="#">Promoções</a></li>
+                    <li><a href="#">Suporte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="game-page football">
+        <div class="container">
+            <h2>Apostar em Futebol</h2>
+            <p>Preveja os resultados dos jogos de futebol e ganhe grandes prêmios!</p>
+            <img src="images/jogadores.jpg" alt="">
+            <br><br>
+            <input type="button" onclick="apertar()" class="botao" value="Apostar em Futebol">            
+        </div>
+    </section>
+    <script>
+        function apertar(){
+            Swal.fire({
+                title: "Parabéns!",
+                text: "Você ganhou R$100,00",
+                icon: "success"
+              });
+        }
+    </script>
+    <footer class="blaze-footer">
+        <div class="container">
+            <p>&copy; 2024 Blaze Apostas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
