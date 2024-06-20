@@ -2,6 +2,7 @@
     width: 90%;
     margin: 0 auto;
 }
+
 .blaze-header {
     background-color: #333;
     color: #fff;
@@ -35,40 +36,31 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-
-.game-page {
-    padding: 50px 0;
-    text-align: center;
-}
-
-.game-page h2 {
-    margin-bottom: 30px;
-    font-size: 24px;
-}
-
-.game-page p {
-    color: #999;
-    margin-bottom: 40px;
-}
-
-.botao {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.botao:hover {
-    background-color: #0056b3;
-}
-
 .blaze-footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+.suporte{
+    padding: 15% 25%;
+    background: url(../images/bg-waves.svg) no-repeat bottom center;
+    background-size: 100%;
+    background-color: #001220;
+}
+.suporte h1{
+    margin: 14px 0;
+}
+.suporte summary {
+    background: rgb(241, 44, 76);
+    font-size: large;
+    font-weight: 700;
+    margin: 10px 25px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: .9;
+}
+.suporte summary:hover {
+    color: white;
+    opacity: 1;
 }

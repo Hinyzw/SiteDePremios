@@ -1,8 +1,4 @@
-body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -22,11 +18,6 @@ body {
 
 .blaze{
     width: 100px;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 

@@ -1,28 +1,8 @@
-body{
-    background-color: black;
-    color: #fff;
-}
 .botao{
     height: 50px;
     width: 250px;
      border-radius: 15px;
 }
-.blaze{
-    width: 100px;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Global Styles */
-body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-}
-
 .container {
     width: 90%;
     margin: 0 auto;
@@ -112,4 +92,9 @@ nav ul li a:hover {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+.carro{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px #fffb00;
 }

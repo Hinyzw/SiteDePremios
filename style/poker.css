@@ -1,19 +1,8 @@
-body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 .container {
     width: 90%;
     margin: 0 auto;
-}
-.blaze{
-    width: 100px;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 .blaze-header {
     background-color: #333;
