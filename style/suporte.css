@@ -1,0 +1,66 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blaze-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.blaze-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.blaze-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.suporte{
+    padding: 15% 25%;
+    background: url(../images/bg-waves.svg) no-repeat bottom center;
+    background-size: 100%;
+    background-color: #001220;
+}
+.suporte h1{
+    margin: 14px 0;
+}
+.suporte summary {
+    background: rgb(241, 44, 76);
+    font-size: large;
+    font-weight: 700;
+    margin: 10px 25px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: .9;
+}
+.suporte summary:hover {
+    color: white;
+    opacity: 1;
+}

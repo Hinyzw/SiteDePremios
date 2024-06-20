@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostas em Corrida de Cavalos - Blaze Apostas</title>
+    
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/corrida-cavalos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+
+</head>
+<body>
+    <header class="blaze-header">
+        <div class="container">
+            <h1 class="logo">            <img class="blaze" src="images/Blaze_apostas_logo.png" alt="">Apostas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="apostas.html">Apostas</a></li>
+                    <li><a href="promocoes.html">Promoções</a></li>
+                    <li><a href="suporte.html">Suporte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="game-page horse-racing">
+        <div class="container">
+            <h2>Apostar em Corrida de Cavalos</h2>
+            <p>Aposte nos seus cavalos favoritos e sinta a emoção das corridas!</p>
+            <img src="images/desempenho-equestre-papel-de-parede-2880x1800-671_8.jpg" alt="">
+            <br><br>
+            <input type="button" onclick="apertar()" class="botao" value="Apostar em corrida de Cavalos">            
+        </div>
+    </section>
+
+    <script>
+        function apertar(){
+            Swal.fire({
+                title: "Parabéns!",
+                text: "Você ganhou R$500,00",
+                icon: "success"
+              });
+        }
+    </script>
+    
+    <footer class="blaze-footer">
+        <div class="container">
+            <p>&copy; 2024 Blaze Apostas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
