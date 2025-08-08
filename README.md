@@ -1,1 +1,1 @@
-https://hinyzw.github.io/SiteDePremios/
+https://TailyniDev.github.io/SiteDePremios/
